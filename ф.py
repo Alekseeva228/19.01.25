@@ -1,0 +1,8 @@
+f = open('data.txt', 'r', encoding="utf-8")
+text = f.read()
+print(text)
+f.close()
+f1 = open('data1.txt','r', encoding="utf-8")
+text1 = f1.read()
+print(text1)
+f1.close()
